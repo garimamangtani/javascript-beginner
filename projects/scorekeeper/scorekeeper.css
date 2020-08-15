@@ -1,0 +1,12 @@
+.winner {
+  color: green;
+}
+body {
+  background-color: lightgrey;
+}
+.change {
+  color: red;
+}
+#play {
+  display: inline;
+}
