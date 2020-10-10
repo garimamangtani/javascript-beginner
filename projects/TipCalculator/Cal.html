@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculate your tip in time</title>
+    <link rel="stylesheet" type="text/css" href="calculatorStyle.css" />
+  </head>
+  <body class="html">
+    <div class="container">
+      <h1 class="heading">Tip calculator $</h1>
+      <p>How much is your bill?</p>
+      <p>
+        $
+        <input type="text" id= "bv" placeholder="Enter Amount" />
+        <p> How was your Service? </p>
+            <select id='tip'  name="service" id="quality">
+            <option value="0.05">5% Terrible</option>
+            <option value="0.1">10% Bad</option>
+            <option value="0.2">20% Good</option>
+            <option value="0.3">30% Outstanding!</option>
+        </select> 
+      </p>
+      <p>How many people are sharing the bill?</p>
+      <p> <input type="text" id='per' placeholder="Number of Persons">
+    </p>
+    <button id='clickbtn'class="btn" > Calculate Tip </button>
+  
+    <div id="showtip"> 
+    <p> Please pay  <sup>$</sup> <span id="actualtip">0.0</span> 
+      <p id='one'>each</p>
+    </p>
+  </div>
+</div>  
+    <script src="sourceCode.js"></script>
+  </body>
+</html>
