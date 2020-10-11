@@ -36,3 +36,14 @@
   color: black;
   border-color: #dddddd;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: tomato;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
