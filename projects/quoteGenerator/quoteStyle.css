@@ -20,6 +20,8 @@ body {
   color: white;
   font-size: x-large;
   backdrop-filter: blur(5px);
+  font-family: "Caveat", cursive;
+  font-family: "Courgette", cursive;
 }
 
 .right {
@@ -41,4 +43,5 @@ body {
 .container:hover {
   color: yellow;
   border: 5px solid white;
+  transform: scale(1.02);
 }
